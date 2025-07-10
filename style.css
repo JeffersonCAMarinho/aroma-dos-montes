@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fefcf9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #4e342e;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+main {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.story, .contact {
+  margin-top: 2rem;
+}
+
+h2 {
+  color: #6d4c41;
+}
+
+a {
+  color: #6d4c41;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
