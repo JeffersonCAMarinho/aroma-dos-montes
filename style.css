@@ -24,22 +24,10 @@ header h1 {
   font-style: italic;
 }
 
-.hero img {
-  width: 100%;
-  height: auto;
-  max-height: 400px;
-  object-fit: cover;
-  display: block;
-}
-
 main {
   padding: 2rem 1rem;
   max-width: 800px;
   margin: 0 auto;
-}
-
-.story, .contact {
-  margin-top: 2rem;
 }
 
 h2 {
@@ -53,6 +41,32 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.story, .contact {
+  margin-top: 2rem;
+}
+
+/* Carrossel */
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel img.active {
+  opacity: 1;
 }
 
 footer {
