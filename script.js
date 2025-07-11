@@ -1,5 +1,5 @@
 const imagePaths = [
-  'images/cafe-1.jpeg',
+  'images/cafe-2.jpeg',
 ];
 
 const carousel = document.getElementById('carousel');
